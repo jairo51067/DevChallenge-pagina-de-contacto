@@ -1,0 +1,21 @@
+Este desafío consiste en practicar formularios y diseño responsivo con habilidades de HTML y CSS. El desafío es crear una página de contacto que te desafíe a trabajar con formularios, entradas,...
+
+Guía de códigos
+
+git clone https://github.com/devchallenges-io/responsive-web-starter.git
+
+Historias de usuarios
+
+Cree una página de contacto que coincida con el diseño dado.
+
+Utilice HTML para crear la estructura básica.
+
+Añade icono, encabezado, descripción, formulario, entrada, menú desplegable, botón,... según el diseño.
+
+Las entradas deben tener marcadores de posición.
+
+El menú desplegable debe tener al menos 2 opciones, depende de usted qué más opciones agregar, pero el valor predeterminado debe ser el mismo que en el diseño.
+
+Utilice CSS o marcos CSS para diseñar la tarjeta.
+
+La página debe responder en diferentes tamaños de pantalla. 

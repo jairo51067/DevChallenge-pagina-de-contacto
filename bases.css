@@ -1,0 +1,39 @@
+:root {
+  /* --variable: valor;*/
+  --background-blanco: #ffffff;
+  --montserrat: "Montserrat", sans-serif;
+  --open-sans: "Opens sans", sans-serif;
+  --Be-Vietnam-Pro: "Be Vietnam Pro", sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  font-family: var(--Be-Vietnam-Pro);
+  background-color: #a19e9e;
+   
+}
+
+input, select, label{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+/* @media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+} */

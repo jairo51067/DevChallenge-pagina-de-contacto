@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="bases.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>challenge pagina de contacto</title>
+</head>
+
+<body>
+    <!-- contenedores -->
+    <section class="formulario container">
+        <div class="formulario__logo">
+            <img src="./svg/logo.svg" alt="logo">
+        </div>
+
+        <div class="formulario__contenedor container">
+            <!-- titulos -->
+            <div class="formulario__titulo-Principal">
+                <h1>Interested in our<br>business pricing?</h1>
+                <!-- <h1>¿Interesado en nuestros precios comerciales?</h1> -->
+            </div>
+            <div class="formulario__titulo-Secundario">
+                <h2>Fill out the form to view details and we’ll<br>contact you as soon as possible. </h2>
+                <!-- <h2>Complete el formulario para ver los detalles y nos comunicaremos con usted lo antes posible.</h2> -->
+            </div>
+
+            <!-- from contenedor general formulario -->
+            <form class="formulario__campos" action="/action_page.php">
+
+                <!-- campos y secciones -->
+                <div class="formulario__campos-identificacion">
+                    <div class="campo_formulario">
+                        <label class="campo_formulario-titulo" for="name">Name</label>
+                        <input class="campo_formulario-dato" type="text" id="name" name="name" placeholder="Ethan Johnson">
+                    </div>
+                    <div class="campo_formulario">
+                        <label class="campo_formulario-titulo" for="email">Company Email</label>
+                        <input class="campo_formulario-dato" type="email" id="email" name="email" placeholder="ethan@johnson.com">
+                    </div>
+                </div>
+
+                <div class="formulario__campos-identificacion">
+                    <div class="campo_formulario">
+                        <label class="campo_formulario-titulo" for="size">Company Size</label>
+                        <select class="campo_formulario-dato" id="size" name="size">
+                            <option value="50-100 employees">50-100 employees</option>
+                            <option value="101-150 employees">101-150 employees</option>
+                            <option value="151-200 employees">151-200 employees</option>
+                            <option value="201- or more employees">201- or more employees</option>
+                        </select>
+                    </div>
+
+                    <div class="campo_formulario">
+                        <label class="campo_formulario-titulo" for="subject">Subject</label>
+                        <select class="campo_formulario-dato" id="subject" name="subject">
+                            <option value="Building">Building</option>
+                            <option value="Creating and maintaining landing pages">Creating
+                            </option>
+                            <option value="landing page management">management</option>
+                            <option value="creation and management of landing pages">creation
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="formulario__campos-identificacion">
+                    <div class="campo_formulario-mensaje">
+                        <label class="campo_formulario-titulo" for="mensaje">Mensaje</label>
+                        <input class="campo_formulario-dato-mensaje" type="text" id="mensaje" placeholder="50-100 employees"
+                            autocomplete="on" required>
+                    </div>
+                </div>
+
+                <!-- boton contacto -->
+                <input class="btn-contacto" type="submit" value="Contact Sales">
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
