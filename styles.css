@@ -1,22 +1,22 @@
 /* contenedores */
 .formulario {
-  margin: 45px 90px 45px 90px;
+  margin: 0px 90px 45px 90px;
   padding: 35px;
   /* background: url(./svg/bg-image.svg); */ 
   background-size: cover;  
 }
 
 .formulario__contenedor {
-  margin: 35px 100px 35px 100px;
+  margin: 0px 80px 35px 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 /* logo */
-
 .formulario__logo {
-  width: 60%;
+  margin: 0;
+  padding: 0;
 }  
 
 /* titulos */
@@ -26,10 +26,10 @@
   color: #fff;
   text-align: center;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.25;
 
   /* padding: 10px; */
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .formulario__titulo-Secundario {
@@ -37,7 +37,7 @@
   font-size: 2rem;
   color: #fff;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.25;
   /* padding: 10px; */
   margin-bottom: 40px;
 }
