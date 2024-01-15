@@ -2,8 +2,8 @@
 .formulario {
   margin: 45px 90px 45px 90px;
   padding: 35px;
-  background: url(./svg/bg-image.svg);
-  background-size: cover;
+  /* background: url(./svg/bg-image.svg); */ 
+  background-size: cover;  
 }
 
 .formulario__contenedor {
@@ -17,7 +17,7 @@
 
 .formulario__logo {
   width: 60%;
-}
+}  
 
 /* titulos */
 .formulario__titulo-Principal {
