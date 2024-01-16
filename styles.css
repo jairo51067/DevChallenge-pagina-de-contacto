@@ -131,6 +131,11 @@
   font-weight: bold;
 }
 
+/* footer */
+footer h2{
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .formulario {
     margin: 0;
